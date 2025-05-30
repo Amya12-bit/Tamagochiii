@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAMAGOTCHI Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Pacifico&family=Rock+Salt&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head> 
+<body>
+
+  <h1>TAMAGOTCHI</h1>
+  <h2 class="nameclass">!!!</h2>
+  <div id="container">
+    <img id="greeting" src="image/startdog.png" alt="dogstart">
+  </div>
+
+  <div id="button">
+    <button class="start">START</button>
+    <button class="sleep"><img src="image/dogbed.jpg" alt="dog bed"></button>
+    <button class="eat"><img src="image/dogfood.jpg" alt="dog food"></button>
+    <button class="play"><img src="image/dogstoyes.jpg" alt="dog toyes"></button>
+
+    <h3 class="ageclass">AGE: <span id="age"></span></h3>
+  </div>
+  <span class="hungerbarname">HUNGER</span>
+  <div class="hungerbar">
+    <span id="hungerlevel" style="width: 100%;"></span>
+  </div>
+
+  <span class="sleepinessbarname">SLEEPINESS</span>
+  <div class="sleepinessbar">
+    <span id="sleepinesslevel" style="width: 100%;"></span>
+  </div>
+
+  <span class="boredombarname">BOREDOM</span>
+  <div class="boredombar">
+    <span id="boredomlevel" style="width: 100%;"></span>
+  </div>
+
+  <div class="gameover">
+    <span class="dogleavesyou"> There goes your dog!!!</span>
+    <span class="bye"></span> 
+  </div>
+
+ <script src="javascr/new.js" defer></script>
+</body>
+</html>
